@@ -176,7 +176,16 @@ button {
 }
 
 @media only screen and (max-width: 375px){
+    main {
+        justify-content: flex-start;
+    }
+
     .container {
-        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .result {
+        border-radius: 0 0 20px 20px;
     }
 }
